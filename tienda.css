@@ -1,0 +1,198 @@
+       /*Cuerpo de la página*/
+       
+       body {
+           font-size: 20px;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           margin: 0;
+           background-color: #e6e6e6;
+       }
+       /*---------------------------------------------------------------------*/
+       /*Navegación*/
+       
+       .header {
+           width: 100%;
+           height: 120px;
+           background-color: #e6e6e6;
+       }
+       
+       .header img {
+           height: 90px;
+           top: 8px;
+           left: 25px;
+           float: left;
+       }
+       
+       .logoPrincipal {
+           position: absolute;
+           height: 300px;
+       }
+       
+       .titulo {
+           position: absolute;
+           left: 300px;
+           top: -7px;
+           font-style: italic;
+       }
+       
+       .navegacion {
+           display: flex;
+           flex-flow: row wrap;
+           justify-content: flex-end;
+           list-style: none;
+           margin: 0;
+           background-color: rgb(43, 209, 51);
+           height: 97px;
+       }
+       
+       .navegacion a {
+           text-decoration: none;
+           display: block;
+           padding: 35px;
+           color: white;
+           background-color: transparent;
+           transition: background-color .5s ease-out;
+       }
+       
+       .navegacion a:hover {
+           background: #1565C0;
+       }
+       
+       .navegacion li img {
+           height: 30px;
+           top: 5px;
+           right: 25px;
+       }
+       /*---------------------------------------------------------------------*/
+       /*Estilo de los productos*/
+       
+       .contenedor {
+           font-size: .8em;
+           width: 95%;
+           margin: 0 auto;
+           overflow: hidden;
+           position: relative;
+       }
+       
+       .productos {
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           align-items: flex-start;
+           flex-wrap: wrap;
+       }
+       
+       article {
+           position: relative;
+           flex-basis: 300px;
+           flex-grow: 1;
+           margin: 5px 10px;
+           padding: 10px;
+           border: 1.5px solid rgb(43, 209, 51);
+           background-color: white;
+           box-shadow: 8px 7px 5px -3px rgba(205, 200, 200, 0.75);
+       }
+       
+       article>img {
+           height: 200px;
+           display: block;
+           margin: 0 auto;
+           box-shadow: 8px 7px 5px -3px rgba(205, 200, 200, 0.75);
+       }
+       
+       .info span {
+           display: block;
+       }
+       
+       .info span:nth-child(1) {
+           display: block;
+           height: 50px;
+           line-height: 50px;
+           font-size: 1.2em;
+           color: rgb(43, 209, 51);
+           margin: 8px 0 5px 0;
+           border-bottom: .5px dotted orange;
+       }
+       
+       .promocionado {
+           background-image: url("imagenes/Descuento.png");
+           background-repeat: no-repeat;
+           background-position: left;
+           padding-left: 50px;
+           background-size: 40px;
+       }
+       
+       .info span:nth-child(1)::first-letter {
+           text-transform: uppercase;
+       }
+       
+       .info span:nth-child(3),
+       .info span:nth-child(6) {
+           display: inline;
+       }
+       
+       .info span:nth-child(4),
+       .info span:nth-child(7) {
+           font-weight: bold;
+           display: inline-block;
+           padding: 2px;
+           border: 2px solid rgb(43, 209, 51);
+       }
+       
+       article .boton {
+           display: inline-block;
+           font-size: 1.1em;
+           padding: 2px;
+           color: white;
+           background-color: rgb(43, 209, 51);
+           margin-top: 10px;
+           transition: background-color .5s ease;
+       }
+       
+       article .boton:hover {
+           background-color: #1565C0;
+           cursor: pointer;
+       }
+       /*---------------------------------------------------------------------*/
+       /*Estilo del Carrito*/
+       /*
+       .carrito {
+           box-sizing: border-box;
+           width: 400px;
+           color: black;
+           border: 1px solid rgb(59, 223, 67);
+           background-color: rgb(59, 223, 67);
+           position: absolute;
+           top: 0;
+           right: -400px;
+           transition: right .5s ease-in-out;
+       }
+       
+       .carrito header {
+           height: 40px;
+           line-height: 40px;
+           color: white;
+           padding-left: 8px;
+           border-bottom: 1px solid white;
+           background-color: rgb(59, 223, 67);
+       }
+       
+       .detalle-carrito {
+           width: 95%;
+           margin: 3px auto;
+           background-color: white;
+           display: flex;
+           flex-direction: row;
+           justify-content: right;
+           align-items: flex-start;
+       }
+       
+       .detalle-carrito img {
+           display: block;
+           margin-right: 10px;
+       }
+       
+       .detalle-carrito .header-producto-carrito {
+           color: rgb(43, 209, 51);
+           display: block;
+           border-bottom: 1px solid orange;
+       }*/
